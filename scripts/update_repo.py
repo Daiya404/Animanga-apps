@@ -1,7 +1,5 @@
 import requests
 import json
-import os
-import shutil
 import re
 import time
 from pathlib import Path
