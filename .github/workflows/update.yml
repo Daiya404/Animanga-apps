@@ -2,37 +2,81 @@ name: Update Extensions
 
 on:
   schedule:
-    - cron: '0 0 * * *' # Runs every day at midnight UTC
-  workflow_dispatch: # Allows you to run it manually button click
+    - cron: '0 0 * * *' # Runs daily at midnight UTC
+  workflow_dispatch: # Manual trigger
+  push:
+    branches:
+      - main
+    paths:
+      - 'scripts/update_repo.py'
+      - 'requirements.txt'
+      - '.github/workflows/update.yml'
 
 permissions:
   contents: write
 
 jobs:
-  build:
+  update:
     runs-on: ubuntu-latest
+    timeout-minutes: 30
 
     steps:
       - name: Checkout code
-        uses: actions/checkout@v3
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0 # Full history for better diffs
 
       - name: Set up Python
-        uses: actions/setup-python@v4
+        uses: actions/setup-python@v5
         with:
-          python-version: '3.9'
+          python-version: '3.11'
+          cache: 'pip'
 
       - name: Install dependencies
         run: |
+          pip install --upgrade pip
           pip install -r requirements.txt
 
       - name: Run update script
+        id: update
         run: |
-          python scripts/update_repo.py
+          python scripts/update_repo.py | tee update_log.txt
+          echo "status=success" >> $GITHUB_OUTPUT
+        continue-on-error: false
+
+      - name: Check for changes
+        id: changes
+        run: |
+          git add -A
+          if git diff --staged --quiet; then
+            echo "has_changes=false" >> $GITHUB_OUTPUT
+            echo "No changes detected"
+          else
+            echo "has_changes=true" >> $GITHUB_OUTPUT
+            echo "Changes detected"
+          fi
 
       - name: Commit and push changes
+        if: steps.changes.outputs.has_changes == 'true'
         run: |
-          git config --global user.name 'GitHub Action'
-          git config --global user.email 'action@github.com'
-          git add .
-          # Only commit if there are changes
-          git diff --quiet && git diff --staged --quiet || (git commit -m "Auto-update extensions" && git push)
+          git config --local user.name 'github-actions[bot]'
+          git config --local user.email 'github-actions[bot]@users.noreply.github.com'
+          
+          # Create detailed commit message
+          CHANGED_COUNT=$(git diff --staged --numstat | wc -l)
+          git commit -m "Auto-update extensions" -m "Updated $CHANGED_COUNT file(s)" -m "Run ID: ${{ github.run_id }}"
+          
+          git push
+
+      - name: Upload update log
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: update-log
+          path: update_log.txt
+          retention-days: 7
+
+      - name: Notify on failure
+        if: failure()
+        run: |
+          echo "::error::Extension update failed! Check the logs for details."

@@ -1,1 +1,6 @@
-requests
+# HTTP requests
+requests>=2.31.0
+
+# Optional: Add these for better functionality
+# certifi>=2023.7.22  # SSL certificate handling
+# urllib3>=2.0.0  # Better connection pooling

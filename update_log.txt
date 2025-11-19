@@ -1,0 +1,40 @@
+
+--- Scanning Anime ---
+  [+] New: Aniyomi: AllAnime (v14.42)
+  [+] New: Aniyomi: AnimeKai (v14.9)
+  [+] New: Aniyomi: AnimePahe (v14.33)
+  [+] New: Aniyomi: HiAnime (v14.71)
+
+--- Scanning Manga ---
+  [+] New: Tachiyomi: Bato.to (v1.4.56)
+  [+] New: Tachiyomi: MangaDex (v1.4.204)
+  [+] New: Tachiyomi: MangaFire (v1.4.16)
+  [+] New: Tachiyomi: MangaPark (v1.4.22)
+  [+] New: Tachiyomi: MayoTune (v1.4.1)
+  [+] New: Tachiyomi: AllManga (v1.4.10)
+  [+] New: Tachiyomi: MayoTune (v1.4.2)
+  [+] New: Tachiyomi: Weeb Central (v1.4.16)
+
+--- Scanning Novel ---
+  [+] New: AnnasArchive (v1.6)
+  [+] New: Libgen (v1.4)
+
+--- Processing 14 unique extensions ---
+  [↓] Downloading: Aniyomi: AllAnime (v14.42)
+  [↓] Downloading: Aniyomi: AnimeKai (v14.9)
+  [↓] Downloading: Aniyomi: AnimePahe (v14.33)
+  [↓] Downloading: Aniyomi: HiAnime (v14.71)
+  [↓] Downloading: Tachiyomi: Bato.to (v1.4.56)
+  [↓] Downloading: Tachiyomi: MangaDex (v1.4.204)
+  [↓] Downloading: Tachiyomi: MangaFire (v1.4.16)
+  [↓] Downloading: Tachiyomi: MangaPark (v1.4.22)
+  [↓] Downloading: Tachiyomi: MayoTune (v1.4.1)
+  [↓] Downloading: Tachiyomi: AllManga (v1.4.10)
+  [↓] Downloading: Tachiyomi: MayoTune (v1.4.2)
+  [↓] Downloading: Tachiyomi: Weeb Central (v1.4.16)
+  [↓] Downloading: AnnasArchive (v1.6)
+  [↓] Downloading: Libgen (v1.4)
+
+✓ Success! Total extensions: 14
+  - New/Updated: 14
+  - Unchanged: 0
