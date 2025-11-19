@@ -5,7 +5,7 @@ import shutil
 import re
 import time
 
-# --- CONFIGURATION ---
+# Repository configuration
 GITHUB_USERNAME = "Daiya404"
 REPO_NAME = "Animanga-apps"
 REPO_ROOT = f"https://raw.githubusercontent.com/{GITHUB_USERNAME}/{REPO_NAME}/main"
@@ -16,7 +16,7 @@ SOURCES = [
         "type": "Anime",
         "json_url": "https://raw.githubusercontent.com/yuzono/anime-repo/repo/index.min.json",
         "apk_base_url": "https://raw.githubusercontent.com/yuzono/anime-repo/repo/apk",
-        # Lowercase keywords to search for in the extension name
+        # Keywords to search
         "keywords": ["allanime", "hianime", "animepahe", "animekai"]
     },
     {
@@ -29,7 +29,7 @@ SOURCES = [
         "type": "Novel",
         "json_url": "https://raw.githubusercontent.com/dannovels/novel-extensions/repo/index.min.json",
         "apk_base_url": "https://raw.githubusercontent.com/dannovels/novel-extensions/repo/apk",
-        # Empty keywords = Download EVERYTHING from this source
+        # Empty keywords means "grab all"
         "keywords": [] 
     }
 ]
@@ -59,7 +59,7 @@ def fetch_with_retry(url, stream=False, retries=3):
             return response
         except Exception as e:
             print(f"    [!] Attempt {attempt+1} failed: {e}")
-            time.sleep(2) # Wait 2 seconds before retrying
+            time.sleep(2) # 2 Seconds Delay
     return None
 
 def process_repos():
@@ -147,4 +147,5 @@ def process_repos():
     print(f"\nSuccess! Total extensions in repo: {len(final_index)}")
 
 if __name__ == "__main__":
+
     process_repos()
