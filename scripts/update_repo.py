@@ -5,7 +5,6 @@ import shutil
 import re
 import time
 
-# --- CONFIGURATION ---
 GITHUB_USERNAME = "Daiya404"
 REPO_NAME = "Animanga-apps"
 REPO_ROOT = f"https://raw.githubusercontent.com/{GITHUB_USERNAME}/{REPO_NAME}/main"
@@ -22,7 +21,6 @@ SOURCES = [
         "type": "Manga",
         "json_url": "https://raw.githubusercontent.com/keiyoushi/extensions/repo/index.min.json",
         "apk_base_url": "https://raw.githubusercontent.com/keiyoushi/extensions/repo/apk",
-        # Added requested extensions here
         "keywords": [
             "mangadex", "weebcentral", "allmanga", 
             "bato", "xbato", "mangafire", "mangapark", "mayotune"
@@ -33,7 +31,7 @@ SOURCES = [
         "type": "Novel",
         "json_url": "https://raw.githubusercontent.com/dannovels/novel-extensions/repo/index.min.json",
         "apk_base_url": "https://raw.githubusercontent.com/dannovels/novel-extensions/repo/apk",
-        "keywords": [], # Empty list = Download Everything from this source
+        "keywords": [], # Empty = Download All
         "blacklist": []
     }
 ]
@@ -50,6 +48,13 @@ def setup_dirs():
 def clean_name(name):
     return re.sub(r'[^a-zA-Z0-9]', '', str(name)).lower()
 
+def version_str_to_tuple(v_str):
+    """Converts '1.4.2' to (1, 4, 2) for correct comparison"""
+    try:
+        return tuple(map(int, (v_str.split("."))))
+    except:
+        return (0, 0, 0)
+
 def fetch_with_retry(url, stream=False, retries=3):
     headers = {'User-Agent': USER_AGENT}
     for attempt in range(retries):
@@ -63,37 +68,33 @@ def fetch_with_retry(url, stream=False, retries=3):
     return None
 
 def process_repos():
-    final_index = []
     setup_dirs()
+    
+    # We use a dictionary to store ONLY unique packages.
+    # Key = Package Name (e.g., "eu.kanade.mayotune")
+    # Value = The Extension Data Object
+    unique_extensions = {}
 
+    # --- PHASE 1: COLLECT AND DEDUPLICATE ---
     for source in SOURCES:
-        print(f"\n--- Processing {source['type']} ---")
+        print(f"\n--- Scanning {source['type']} ---")
         
         response = fetch_with_retry(source['json_url'])
-        if not response:
-            continue
+        if not response: continue
             
         try:
             extensions = response.json()
-        except json.JSONDecodeError:
-            print("    [X] JSON Decode Error")
-            continue
+        except: continue
 
-        count = 0
-        
         for ext in extensions:
             name = ext.get('name', 'Unknown')
             pkg = ext.get('pkg', 'unknown.pkg')
             version = ext.get('version', '0')
-            raw_apk_link = ext.get('apk', '')
             
+            # Cleaning & Matching Logic
             cleaned = clean_name(name)
-            
-            # 1. Check Blacklist
-            if any(b in cleaned for b in source['blacklist']):
-                continue
+            if any(b in cleaned for b in source['blacklist']): continue
 
-            # 2. Check Whitelist/Keywords
             should_download = False
             if not source['keywords']:
                 should_download = True
@@ -104,47 +105,63 @@ def process_repos():
                         break
             
             if should_download:
-                print(f"  [+] Processing: {name}")
-
-                # 3. Standardize Filename
-                final_filename = f"{pkg}.v{version}.apk"
-                
-                # 4. Determine Download URL
-                if raw_apk_link.startswith("http"):
-                    download_url = raw_apk_link
+                # Version Comparison Logic
+                is_new = False
+                if pkg not in unique_extensions:
+                    is_new = True
                 else:
-                    download_url = f"{source['apk_base_url']}/{raw_apk_link}"
-
-                # 5. Download
-                dest_path = os.path.join(OUTPUT_DIR, final_filename)
+                    old_ver = version_str_to_tuple(unique_extensions[pkg]['version'])
+                    new_ver = version_str_to_tuple(version)
+                    if new_ver > old_ver:
+                        print(f"  [^] Upgrade found for {name}: v{unique_extensions[pkg]['version']} -> v{version}")
+                        is_new = True
                 
-                # Skip redownload if file exists (optimization)
-                if os.path.exists(dest_path):
-                     # Still add to index even if we don't re-download
-                    ext['apk'] = f"{REPO_ROOT}/apk/{final_filename}"
-                    if 'sources' in ext: del ext['sources']
-                    final_index.append(ext)
-                    count += 1
-                    continue
+                if is_new:
+                    # Store source specific data in the object for Phase 2
+                    ext['_source_base_url'] = source['apk_base_url']
+                    unique_extensions[pkg] = ext
 
-                r_apk = fetch_with_retry(download_url, stream=True)
-                
-                if r_apk:
-                    with open(dest_path, 'wb') as f:
-                        for chunk in r_apk.iter_content(chunk_size=8192):
-                            f.write(chunk)
-                    
-                    ext['apk'] = f"{REPO_ROOT}/apk/{final_filename}"
-                    if 'sources' in ext: del ext['sources']
-                        
-                    final_index.append(ext)
-                    count += 1
-                else:
-                    print(f"      [X] Download failed.")
+    # --- PHASE 2: DOWNLOAD AND GENERATE ---
+    print(f"\n--- Downloading {len(unique_extensions)} unique extensions ---")
+    final_index = []
+    
+    for pkg, ext in unique_extensions.items():
+        name = ext.get('name')
+        version = ext.get('version')
+        raw_apk_link = ext.get('apk', '')
+        base_url = ext.pop('_source_base_url') # Remove internal key
+
+        print(f"  [+] Downloading: {name} (v{version})")
+
+        # Filename
+        final_filename = f"{pkg}.v{version}.apk"
         
-        print(f"  -> Added {count} extensions.")
+        # URL Construction
+        if raw_apk_link.startswith("http"):
+            download_url = raw_apk_link
+        else:
+            download_url = f"{base_url}/{raw_apk_link}"
 
-    # Write single index file
+        # Download
+        dest_path = os.path.join(OUTPUT_DIR, final_filename)
+        
+        if not os.path.exists(dest_path):
+            r_apk = fetch_with_retry(download_url, stream=True)
+            if r_apk:
+                with open(dest_path, 'wb') as f:
+                    for chunk in r_apk.iter_content(chunk_size=8192):
+                        f.write(chunk)
+            else:
+                print(f"      [X] Failed to download. Skipping.")
+                continue
+        
+        # Update JSON for index
+        ext['apk'] = f"{REPO_ROOT}/apk/{final_filename}"
+        if 'sources' in ext: del ext['sources']
+        
+        final_index.append(ext)
+
+    # Write Index
     with open(INDEX_FILE, 'w') as f:
         json.dump(final_index, f, indent=2)
     
