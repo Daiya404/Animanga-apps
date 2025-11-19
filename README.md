@@ -2,57 +2,62 @@
 
 ![Update Extensions](https://github.com/Daiya404/Animanga-apps/actions/workflows/update.yml/badge.svg)
 
-A curated, lightweight extension repository for **Aniyomi**, **Mihon**, and **Dantotsu**. This repository is automatically updated daily to ensure you always have the latest versions of specific extensions without the bloat of the full repositories.
+A curated, lightweight extension repository for **Aniyomi**, **Mihon**, **Tachiyomi**, and **Dantotsu**. 
+
+This repository is automatically updated daily. It features a **smart version-checker** that filters multiple sources and ensures you only download the latest, stable version of an extension without duplicates.
 
 ## 📥 How to Add
 
-1. Open **Aniyomi** (or your preferred app).
-2. Go to **More** -> **Settings** -> **Browse** -> **Extension Repos**.
+1. Open your App (**Aniyomi**, **Mihon**, etc.).
+2. Go to **Settings** > **Browse** > **Extension Repos**.
 3. Tap **Add** and paste the following URL:
 
-```
+```text
 https://raw.githubusercontent.com/Daiya404/Animanga-apps/main/index.min.json
 ```
 
-> **Note:** After adding, make sure to pull down on the Extensions list to refresh it. If you don't see the extensions, check your **Filter** settings and ensure "English" and "All" languages are enabled.
+> **⚠️ Important:** After adding the repo, go to your Extensions list and **pull down to refresh**. If extensions do not appear, check your **Filter** icon and ensure **"English"** and **"All"** languages are enabled.
 
 ## 🧩 Extension List
 
-This repository currently hosts and auto-updates the following:
-
 ### 📺 Anime
-| Extension | Language |
-| :--- | :---: |
-| **AllAnime** | EN |
-| **HiAnime** (Zoro) | EN |
-| **AnimePahe** | EN |
-| **AnimeKai** | EN |
+| Extension | Language | Source |
+| :--- | :---: | :--- |
+| **AllAnime** | EN | Yuzono |
+| **HiAnime** (Zoro) | EN | Yuzono |
+| **AnimePahe** | EN | Yuzono |
+| **AnimeKai** | EN | Yuzono |
 
 ### 📖 Manga
-| Extension | Language |
-| :--- | :---: |
-| **MangaDex** | All |
-| **Weeb Central** | EN |
-| **AllManga** | EN |
+| Extension | Language | Source |
+| :--- | :---: | :--- |
+| **MangaDex** | All | Keiyoushi |
+| **Weeb Central** | EN | Keiyoushi |
+| **AllManga** | EN | Keiyoushi |
+| **Bato.to** | EN | Keiyoushi |
+| **MangaFire** | EN | Keiyoushi |
+| **MangaPark** | EN | Keiyoushi |
+| **MayoTune** | EN | Keiyoushi |
 
 ### 📚 Novels
-| Extension | Language |
-| :--- | :---: |
-| **AnnasArchive** | All |
-| **Libgen** | All |
+| Extension | Language | Source |
+| :--- | :---: | :--- |
+| **AnnasArchive** | All | Dannovels |
+| **Libgen** | All | Dannovels |
 
 ## ⚙️ How it Works
 
-*   **Automation:** A GitHub Actions workflow runs every 24 hours.
-*   **Scripting:** A Python script fetches the latest data from the source repositories (Yuzono, Keiyoushi, Dannovels).
-*   **Filtering:** It filters out *only* the extensions listed above, downloads the APKs, and generates a custom `index.min.json`.
-*   **Hosting:** The APKs are hosted directly in this repository's `apk/` folder for fast access.
+1.  **Aggregation:** A Python script runs every 24 hours via GitHub Actions.
+2.  **Smart Filtering:** It scans massive extension repositories (Yuzono, Keiyoushi, Dannovels).
+3.  **Deduplication:** If multiple versions of the same extension exist (e.g., v1.4.1 and v1.4.2), the script mathematically compares them and keeps **only the highest version**.
+4.  **Hosting:** The APKs are hosted directly in this repository for fast, reliable access.
 
-## credits
+## 🏆 Credits
 
-*   **Anime Source:** [yuzono/anime-repo](https://github.com/yuzono/anime-repo)
-*   **Manga Source:** [keiyoushi/extensions](https://github.com/keiyoushi/extensions)
-*   **Novel Source:** [dannovels/novel-extensions](https://github.com/dannovels/novel-extensions)
+This repo wouldn't exist without the work of these upstream maintainers:
+*   **Anime:** [yuzono/anime-repo](https://github.com/yuzono/anime-repo)
+*   **Manga:** [keiyoushi/extensions](https://github.com/keiyoushi/extensions)
+*   **Novels:** [dannovels/novel-extensions](https://github.com/dannovels/novel-extensions)
 
 ---
 *This repository is for personal use and education. I do not create the extensions, I only mirror specific ones for convenience.*
