@@ -1,6 +1,6 @@
 
 --- Scanning Anime ---
-  [+] New: Aniyomi: AllAnime (v14.42)
+  [+] New: Aniyomi: AllAnime (v14.43)
   [+] New: Aniyomi: AnimeKai (v14.10)
   [+] New: Aniyomi: AnimePahe (v14.33)
   [+] New: Aniyomi: HiAnime (v14.71)
@@ -20,8 +20,8 @@
   [+] New: Libgen (v1.4)
 
 --- Processing 14 unique extensions ---
-  [=] Skipped: Aniyomi: AllAnime (v14.42) - already up to date
-  [↓] Downloading: Aniyomi: AnimeKai (v14.10)
+  [↓] Downloading: Aniyomi: AllAnime (v14.43)
+  [=] Skipped: Aniyomi: AnimeKai (v14.10) - already up to date
   [=] Skipped: Aniyomi: AnimePahe (v14.33) - already up to date
   [=] Skipped: Aniyomi: HiAnime (v14.71) - already up to date
   [=] Skipped: Tachiyomi: Bato.to (v1.4.56) - already up to date
@@ -34,7 +34,7 @@
   [=] Skipped: Tachiyomi: Weeb Central (v1.4.16) - already up to date
   [=] Skipped: AnnasArchive (v1.6) - already up to date
   [=] Skipped: Libgen (v1.4) - already up to date
-  [−] Removing old version: eu.kanade.tachiyomi.animeextension.en.animekai.v14.9.apk
+  [−] Removing old version: eu.kanade.tachiyomi.animeextension.en.allanime.v14.42.apk
 
 ✓ Success! Total extensions: 14
   - New/Updated: 1
