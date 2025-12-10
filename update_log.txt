@@ -27,15 +27,14 @@
   [=] Skipped: Tachiyomi: Bato.to (v1.4.56) - already up to date
   [=] Skipped: Tachiyomi: MangaDex (v1.4.204) - already up to date
   [=] Skipped: Tachiyomi: MangaFire (v1.4.16) - already up to date
-  [↓] Downloading: Tachiyomi: MangaPark (v1.4.24)
+  [=] Skipped: Tachiyomi: MangaPark (v1.4.24) - already up to date
   [=] Skipped: Tachiyomi: MayoTune (v1.4.1) - already up to date
   [=] Skipped: Tachiyomi: AllManga (v1.4.10) - already up to date
   [=] Skipped: Tachiyomi: MayoTune (v1.4.2) - already up to date
   [=] Skipped: Tachiyomi: Weeb Central (v1.4.16) - already up to date
   [=] Skipped: AnnasArchive (v1.6) - already up to date
   [=] Skipped: Libgen (v1.4) - already up to date
-  [−] Removing old version: eu.kanade.tachiyomi.extension.all.mangapark.v1.4.23.apk
 
 ✓ Success! Total extensions: 14
-  - New/Updated: 1
-  - Unchanged: 13
+  - New/Updated: 0
+  - Unchanged: 14
