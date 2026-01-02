@@ -24,8 +24,8 @@
   [=] Skipped: Aniyomi: AnimeKai (v14.10) - already up to date
   [=] Skipped: Aniyomi: AnimePahe (v14.33) - already up to date
   [=] Skipped: Aniyomi: HiAnime (v14.71) - already up to date
-  [↓] Downloading: Tachiyomi: Bato.to (v1.4.58)
-  [↓] Downloading: Tachiyomi: Bato.to V4 (v1.4.2)
+  [=] Skipped: Tachiyomi: Bato.to (v1.4.58) - already up to date
+  [=] Skipped: Tachiyomi: Bato.to V4 (v1.4.2) - already up to date
   [=] Skipped: Tachiyomi: MangaDex (v1.4.204) - already up to date
   [=] Skipped: Tachiyomi: MangaFire (v1.4.16) - already up to date
   [=] Skipped: Tachiyomi: MangaPark (v1.4.24) - already up to date
@@ -34,9 +34,7 @@
   [=] Skipped: Tachiyomi: Weeb Central (v1.4.16) - already up to date
   [=] Skipped: AnnasArchive (v1.6) - already up to date
   [=] Skipped: Libgen (v1.4) - already up to date
-  [−] Removing old version: eu.kanade.tachiyomi.extension.all.batotov4.v1.4.1.apk
-  [−] Removing old version: eu.kanade.tachiyomi.extension.all.batoto.v1.4.57.apk
 
 ✓ Success! Total extensions: 14
-  - New/Updated: 2
-  - Unchanged: 12
+  - New/Updated: 0
+  - Unchanged: 14
