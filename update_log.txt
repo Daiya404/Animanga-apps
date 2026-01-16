@@ -6,8 +6,8 @@
   [+] New: Aniyomi: HiAnime (v14.71)
 
 --- Scanning Manga ---
-  [+] New: Tachiyomi: Bato.to (v1.4.59)
-  [+] New: Tachiyomi: MangaDex (v1.4.204)
+  [+] New: Tachiyomi: Bato.to (v1.4.60)
+  [+] New: Tachiyomi: MangaDex (v1.4.205)
   [+] New: Tachiyomi: MangaFire (v1.4.16)
   [+] New: Tachiyomi: MangaPark (v1.4.25)
   [+] New: Tachiyomi: MayoTune (v1.4.1)
@@ -23,8 +23,8 @@
   [=] Skipped: Aniyomi: AnimeKai (v14.10) - already up to date
   [=] Skipped: Aniyomi: AnimePahe (v14.33) - already up to date
   [=] Skipped: Aniyomi: HiAnime (v14.71) - already up to date
-  [=] Skipped: Tachiyomi: Bato.to (v1.4.59) - already up to date
-  [=] Skipped: Tachiyomi: MangaDex (v1.4.204) - already up to date
+  [↓] Downloading: Tachiyomi: Bato.to (v1.4.60)
+  [↓] Downloading: Tachiyomi: MangaDex (v1.4.205)
   [=] Skipped: Tachiyomi: MangaFire (v1.4.16) - already up to date
   [=] Skipped: Tachiyomi: MangaPark (v1.4.25) - already up to date
   [=] Skipped: Tachiyomi: MayoTune (v1.4.1) - already up to date
@@ -32,7 +32,9 @@
   [=] Skipped: Tachiyomi: Weeb Central (v1.4.16) - already up to date
   [=] Skipped: AnnasArchive (v1.6) - already up to date
   [=] Skipped: Libgen (v1.4) - already up to date
+  [−] Removing old version: eu.kanade.tachiyomi.extension.all.batoto.v1.4.59.apk
+  [−] Removing old version: eu.kanade.tachiyomi.extension.all.mangadex.v1.4.204.apk
 
 ✓ Success! Total extensions: 13
-  - New/Updated: 0
-  - Unchanged: 13
+  - New/Updated: 2
+  - Unchanged: 11
