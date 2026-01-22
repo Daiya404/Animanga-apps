@@ -30,7 +30,6 @@
   [=] Skipped: Tachiyomi: Weeb Central (v1.4.16) - already up to date
   [=] Skipped: AnnasArchive (v1.6) - already up to date
   [=] Skipped: Libgen (v1.4) - already up to date
-  [−] Removing old version: eu.kanade.tachiyomi.extension.all.batoto.v1.4.60.apk
 
 ✓ Success! Total extensions: 12
   - New/Updated: 0
