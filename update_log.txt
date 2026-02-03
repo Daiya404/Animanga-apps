@@ -7,8 +7,7 @@
 
 --- Scanning Manga ---
   [+] New: Tachiyomi: MangaDex (v1.4.205)
-  [+] New: Tachiyomi: MangaFire (v1.4.16)
-  [+] New: Tachiyomi: MangaPark (v1.4.25)
+  [+] New: Tachiyomi: MangaFire (v1.4.17)
   [+] New: Tachiyomi: MayoTune (v1.4.1)
   [+] New: Tachiyomi: AllManga (v1.4.10)
   [+] New: Tachiyomi: Weeb Central (v1.4.16)
@@ -17,20 +16,21 @@
   [+] New: AnnasArchive (v1.6)
   [+] New: Libgen (v1.4)
 
---- Processing 12 unique extensions ---
+--- Processing 11 unique extensions ---
   [=] Skipped: Aniyomi: AllAnime (v14.43) - already up to date
   [=] Skipped: Aniyomi: AnimeKai (v14.11) - already up to date
   [=] Skipped: Aniyomi: AnimePahe (v14.33) - already up to date
   [=] Skipped: Aniyomi: HiAnime (v14.71) - already up to date
   [=] Skipped: Tachiyomi: MangaDex (v1.4.205) - already up to date
-  [=] Skipped: Tachiyomi: MangaFire (v1.4.16) - already up to date
-  [=] Skipped: Tachiyomi: MangaPark (v1.4.25) - already up to date
+  [↓] Downloading: Tachiyomi: MangaFire (v1.4.17)
   [=] Skipped: Tachiyomi: MayoTune (v1.4.1) - already up to date
   [=] Skipped: Tachiyomi: AllManga (v1.4.10) - already up to date
   [=] Skipped: Tachiyomi: Weeb Central (v1.4.16) - already up to date
   [=] Skipped: AnnasArchive (v1.6) - already up to date
   [=] Skipped: Libgen (v1.4) - already up to date
+  [−] Removing old version: eu.kanade.tachiyomi.extension.all.mangafire.v1.4.16.apk
+  [−] Removing old version: eu.kanade.tachiyomi.extension.all.mangapark.v1.4.25.apk
 
-✓ Success! Total extensions: 12
-  - New/Updated: 0
-  - Unchanged: 12
+✓ Success! Total extensions: 11
+  - New/Updated: 1
+  - Unchanged: 10
