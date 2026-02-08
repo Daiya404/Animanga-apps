@@ -17,10 +17,10 @@
   [+] New: Libgen (v1.4)
 
 --- Processing 11 unique extensions ---
-  [↓] Downloading: Aniyomi: AllAnime (v14.43)
-  [↓] Downloading: Aniyomi: AnimeKai (v14.11)
-  [↓] Downloading: Aniyomi: AnimePahe (v14.33)
-  [↓] Downloading: Aniyomi: HiAnime (v14.71)
+  [=] Skipped: Aniyomi: AllAnime (v14.43) - already up to date
+  [=] Skipped: Aniyomi: AnimeKai (v14.11) - already up to date
+  [=] Skipped: Aniyomi: AnimePahe (v14.33) - already up to date
+  [=] Skipped: Aniyomi: HiAnime (v14.71) - already up to date
   [=] Skipped: Tachiyomi: MangaDex (v1.4.206) - already up to date
   [=] Skipped: Tachiyomi: MangaFire (v1.4.17) - already up to date
   [=] Skipped: Tachiyomi: MayoTune (v1.4.1) - already up to date
@@ -30,5 +30,5 @@
   [=] Skipped: Libgen (v1.4) - already up to date
 
 ✓ Success! Total extensions: 11
-  - New/Updated: 4
-  - Unchanged: 7
+  - New/Updated: 0
+  - Unchanged: 11
