@@ -27,10 +27,10 @@
   [=] Skipped: Tachiyomi: MayoTune (v1.4.1) - already up to date
   [=] Skipped: Tachiyomi: AllManga (v1.4.10) - already up to date
   [=] Skipped: Tachiyomi: Weeb Central (v1.4.16) - already up to date
-  [↓] Downloading: Tachiyomi: Manga-Park (v1.4.1)
+  [=] Skipped: Tachiyomi: Manga-Park (v1.4.1) - already up to date
   [=] Skipped: AnnasArchive (v1.6) - already up to date
   [=] Skipped: Libgen (v1.4) - already up to date
 
 ✓ Success! Total extensions: 12
-  - New/Updated: 1
-  - Unchanged: 11
+  - New/Updated: 0
+  - Unchanged: 12
