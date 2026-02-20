@@ -8,7 +8,7 @@
 --- Scanning Manga ---
   [+] New: Tachiyomi: MangaDex (v1.4.206)
   [+] New: Tachiyomi: MangaFire (v1.4.17)
-  [+] New: Tachiyomi: MayoTune (v1.4.1)
+  [+] New: Tachiyomi: MayoTune (v1.4.2)
   [+] New: Tachiyomi: AllManga (v1.4.10)
   [+] New: Tachiyomi: Weeb Central (v1.4.16)
   [+] New: Tachiyomi: Manga-Park (v1.4.1)
@@ -24,13 +24,14 @@
   [=] Skipped: Aniyomi: HiAnime (v14.71) - already up to date
   [=] Skipped: Tachiyomi: MangaDex (v1.4.206) - already up to date
   [=] Skipped: Tachiyomi: MangaFire (v1.4.17) - already up to date
-  [=] Skipped: Tachiyomi: MayoTune (v1.4.1) - already up to date
+  [↓] Downloading: Tachiyomi: MayoTune (v1.4.2)
   [=] Skipped: Tachiyomi: AllManga (v1.4.10) - already up to date
   [=] Skipped: Tachiyomi: Weeb Central (v1.4.16) - already up to date
   [=] Skipped: Tachiyomi: Manga-Park (v1.4.1) - already up to date
   [=] Skipped: AnnasArchive (v1.6) - already up to date
   [=] Skipped: Libgen (v1.4) - already up to date
+  [−] Removing old version: eu.kanade.tachiyomi.extension.all.mayotune.v1.4.1.apk
 
 ✓ Success! Total extensions: 12
-  - New/Updated: 0
-  - Unchanged: 12
+  - New/Updated: 1
+  - Unchanged: 11
