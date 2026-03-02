@@ -26,12 +26,11 @@
   [=] Skipped: Tachiyomi: MangaFire (v1.4.18) - already up to date
   [=] Skipped: Tachiyomi: MayoTune (v1.4.2) - already up to date
   [=] Skipped: Tachiyomi: AllManga (v1.4.10) - already up to date
-  [↓] Downloading: Tachiyomi: Weeb Central (v1.4.17)
+  [=] Skipped: Tachiyomi: Weeb Central (v1.4.17) - already up to date
   [=] Skipped: Tachiyomi: Manga-Park (v1.4.1) - already up to date
   [=] Skipped: AnnasArchive (v1.6) - already up to date
   [=] Skipped: Libgen (v1.4) - already up to date
-  [−] Removing old version: eu.kanade.tachiyomi.extension.en.weebcentral.v1.4.16.apk
 
 ✓ Success! Total extensions: 12
-  - New/Updated: 1
-  - Unchanged: 11
+  - New/Updated: 0
+  - Unchanged: 12
