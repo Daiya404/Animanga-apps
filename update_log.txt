@@ -9,7 +9,7 @@
   [+] New: Tachiyomi: MangaDex (v1.4.206)
   [+] New: Tachiyomi: MangaFire (v1.4.18)
   [+] New: Tachiyomi: MayoTune (v1.4.2)
-  [+] New: Tachiyomi: AllManga (v1.4.10)
+  [+] New: Tachiyomi: AllManga (v1.4.11)
   [+] New: Tachiyomi: Weeb Central (v1.4.18)
   [+] New: Tachiyomi: Manga-Park (v1.4.1)
 
@@ -18,22 +18,20 @@
   [+] New: Libgen (v1.4)
 
 --- Processing 12 unique extensions ---
-  [↓] Downloading: Aniyomi: AllAnime (v14.44)
-  [↓] Downloading: Aniyomi: AnimeKai (v14.12)
+  [=] Skipped: Aniyomi: AllAnime (v14.44) - already up to date
+  [=] Skipped: Aniyomi: AnimeKai (v14.12) - already up to date
   [=] Skipped: Aniyomi: AnimePahe (v14.33) - already up to date
-  [↓] Downloading: Aniyomi: HiAnime (v14.72)
+  [=] Skipped: Aniyomi: HiAnime (v14.72) - already up to date
   [=] Skipped: Tachiyomi: MangaDex (v1.4.206) - already up to date
   [=] Skipped: Tachiyomi: MangaFire (v1.4.18) - already up to date
   [=] Skipped: Tachiyomi: MayoTune (v1.4.2) - already up to date
-  [=] Skipped: Tachiyomi: AllManga (v1.4.10) - already up to date
+  [↓] Downloading: Tachiyomi: AllManga (v1.4.11)
   [=] Skipped: Tachiyomi: Weeb Central (v1.4.18) - already up to date
   [=] Skipped: Tachiyomi: Manga-Park (v1.4.1) - already up to date
   [=] Skipped: AnnasArchive (v1.6) - already up to date
   [=] Skipped: Libgen (v1.4) - already up to date
-  [−] Removing old version: eu.kanade.tachiyomi.animeextension.en.allanime.v14.43.apk
-  [−] Removing old version: eu.kanade.tachiyomi.animeextension.en.zoro.v14.71.apk
-  [−] Removing old version: eu.kanade.tachiyomi.animeextension.en.animekai.v14.11.apk
+  [−] Removing old version: eu.kanade.tachiyomi.extension.en.allanime.v1.4.10.apk
 
 ✓ Success! Total extensions: 12
-  - New/Updated: 3
-  - Unchanged: 9
+  - New/Updated: 1
+  - Unchanged: 11
