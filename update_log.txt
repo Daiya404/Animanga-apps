@@ -1,8 +1,8 @@
 
 --- Scanning Anime ---
   [+] New: Aniyomi: AllAnime (v14.46)
-  [+] New: Aniyomi: AnimeKai (v14.12)
-  [+] New: Aniyomi: AnimePahe (v14.36)
+  [+] New: Aniyomi: AnimeKai (v14.13)
+  [+] New: Aniyomi: AnimePahe (v14.37)
   [+] New: Aniyomi: HiAnime (v14.72)
 
 --- Scanning Manga ---
@@ -19,8 +19,8 @@
 
 --- Processing 12 unique extensions ---
   [=] Skipped: Aniyomi: AllAnime (v14.46) - already up to date
-  [=] Skipped: Aniyomi: AnimeKai (v14.12) - already up to date
-  [=] Skipped: Aniyomi: AnimePahe (v14.36) - already up to date
+  [↓] Downloading: Aniyomi: AnimeKai (v14.13)
+  [↓] Downloading: Aniyomi: AnimePahe (v14.37)
   [=] Skipped: Aniyomi: HiAnime (v14.72) - already up to date
   [=] Skipped: Tachiyomi: MangaDex (v1.4.207) - already up to date
   [=] Skipped: Tachiyomi: MangaFire (v1.4.19) - already up to date
@@ -30,7 +30,9 @@
   [=] Skipped: Tachiyomi: Manga-Park (v1.4.1) - already up to date
   [=] Skipped: AnnasArchive (v1.6) - already up to date
   [=] Skipped: Libgen (v1.4) - already up to date
+  [−] Removing old version: eu.kanade.tachiyomi.animeextension.en.animepahe.v14.36.apk
+  [−] Removing old version: eu.kanade.tachiyomi.animeextension.en.animekai.v14.12.apk
 
 ✓ Success! Total extensions: 12
-  - New/Updated: 0
-  - Unchanged: 12
+  - New/Updated: 2
+  - Unchanged: 10
