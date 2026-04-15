@@ -19,7 +19,7 @@
 
 --- Processing 12 unique extensions ---
   [=] Skipped: Aniyomi: AllAnime (v14.46) - already up to date
-  [↓] Downloading: Aniyomi: AnimeKai (v14.14)
+  [=] Skipped: Aniyomi: AnimeKai (v14.14) - already up to date
   [=] Skipped: Aniyomi: AnimePahe (v14.38) - already up to date
   [=] Skipped: Aniyomi: HiAnime (v14.72) - already up to date
   [=] Skipped: Tachiyomi: MangaDex (v1.4.207) - already up to date
@@ -30,8 +30,7 @@
   [=] Skipped: Tachiyomi: Manga-Park (v1.4.1) - already up to date
   [=] Skipped: AnnasArchive (v1.6) - already up to date
   [=] Skipped: Libgen (v1.4) - already up to date
-  [−] Removing old version: eu.kanade.tachiyomi.animeextension.en.animekai.v14.13.apk
 
 ✓ Success! Total extensions: 12
-  - New/Updated: 1
-  - Unchanged: 11
+  - New/Updated: 0
+  - Unchanged: 12
