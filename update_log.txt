@@ -1,15 +1,16 @@
 
 --- Scanning Anime ---
   [+] New: Aniyomi: AllAnime (v14.48)
-  [+] New: Aniyomi: AnimeKai (v14.14)
+  [+] New: Aniyomi: AnimeKai (v14.16)
   [+] New: Aniyomi: AnimePahe (v14.38)
-  [+] New: Aniyomi: HiAnime (v14.72)
+  [+] New: Aniyomi: HiAnimeWs (Unoriginal) (v14.2)
+  [+] New: Aniyomi: HiAnime (Dead) (v14.72)
 
 --- Scanning Manga ---
   [+] New: Tachiyomi: MangaDex (v1.4.207)
   [+] New: Tachiyomi: MangaFire (v1.4.20)
   [+] New: Tachiyomi: MayoTune (v1.4.2)
-  [+] New: Tachiyomi: AllManga (v1.4.13)
+  [+] New: Tachiyomi: AllManga (v1.4.14)
   [+] New: Tachiyomi: Weeb Central (v1.4.18)
   [+] New: Tachiyomi: Manga-Park (v1.4.1)
 
@@ -17,20 +18,23 @@
   [+] New: AnnasArchive (v1.6)
   [+] New: Libgen (v1.4)
 
---- Processing 12 unique extensions ---
+--- Processing 13 unique extensions ---
   [=] Skipped: Aniyomi: AllAnime (v14.48) - already up to date
-  [=] Skipped: Aniyomi: AnimeKai (v14.14) - already up to date
+  [↓] Downloading: Aniyomi: AnimeKai (v14.16)
   [=] Skipped: Aniyomi: AnimePahe (v14.38) - already up to date
-  [=] Skipped: Aniyomi: HiAnime (v14.72) - already up to date
+  [↓] Downloading: Aniyomi: HiAnimeWs (Unoriginal) (v14.2)
+  [=] Skipped: Aniyomi: HiAnime (Dead) (v14.72) - already up to date
   [=] Skipped: Tachiyomi: MangaDex (v1.4.207) - already up to date
   [=] Skipped: Tachiyomi: MangaFire (v1.4.20) - already up to date
   [=] Skipped: Tachiyomi: MayoTune (v1.4.2) - already up to date
-  [=] Skipped: Tachiyomi: AllManga (v1.4.13) - already up to date
+  [↓] Downloading: Tachiyomi: AllManga (v1.4.14)
   [=] Skipped: Tachiyomi: Weeb Central (v1.4.18) - already up to date
   [=] Skipped: Tachiyomi: Manga-Park (v1.4.1) - already up to date
   [=] Skipped: AnnasArchive (v1.6) - already up to date
   [=] Skipped: Libgen (v1.4) - already up to date
+  [−] Removing old version: eu.kanade.tachiyomi.extension.en.allanime.v1.4.13.apk
+  [−] Removing old version: eu.kanade.tachiyomi.animeextension.en.animekai.v14.14.apk
 
-✓ Success! Total extensions: 12
-  - New/Updated: 0
-  - Unchanged: 12
+✓ Success! Total extensions: 13
+  - New/Updated: 3
+  - Unchanged: 10
