@@ -2,16 +2,16 @@
 --- Scanning Anime ---
   [+] New: Aniyomi: AllAnime (v14.50)
   [+] New: Aniyomi: AnimeKai (v14.17)
-  [+] New: Aniyomi: AnimePahe (v14.38)
+  [+] New: Aniyomi: AnimePahe (v14.39)
   [+] New: Aniyomi: HiAnimeWs (Unoriginal) (v14.3)
   [+] New: Aniyomi: HiAnime (Dead) (v14.72)
 
 --- Scanning Manga ---
-  [+] New: Tachiyomi: MangaDex (v1.4.207)
+  [+] New: Tachiyomi: MangaDex (v1.4.208)
   [+] New: Tachiyomi: MangaFire (v1.4.21)
   [+] New: Tachiyomi: MayoTune (v1.4.2)
-  [+] New: Tachiyomi: AllManga (v1.4.15)
-  [+] New: Tachiyomi: Weeb Central (v1.4.19)
+  [+] New: Tachiyomi: AllManga (v1.4.16)
+  [+] New: Tachiyomi: Weeb Central (v1.4.20)
   [+] New: Tachiyomi: Manga-Park (v1.4.1)
 
 --- Scanning Novel ---
@@ -21,18 +21,22 @@
 --- Processing 13 unique extensions ---
   [=] Skipped: Aniyomi: AllAnime (v14.50) - already up to date
   [=] Skipped: Aniyomi: AnimeKai (v14.17) - already up to date
-  [=] Skipped: Aniyomi: AnimePahe (v14.38) - already up to date
+  [↓] Downloading: Aniyomi: AnimePahe (v14.39)
   [=] Skipped: Aniyomi: HiAnimeWs (Unoriginal) (v14.3) - already up to date
   [=] Skipped: Aniyomi: HiAnime (Dead) (v14.72) - already up to date
-  [=] Skipped: Tachiyomi: MangaDex (v1.4.207) - already up to date
+  [↓] Downloading: Tachiyomi: MangaDex (v1.4.208)
   [=] Skipped: Tachiyomi: MangaFire (v1.4.21) - already up to date
   [=] Skipped: Tachiyomi: MayoTune (v1.4.2) - already up to date
-  [=] Skipped: Tachiyomi: AllManga (v1.4.15) - already up to date
-  [=] Skipped: Tachiyomi: Weeb Central (v1.4.19) - already up to date
+  [↓] Downloading: Tachiyomi: AllManga (v1.4.16)
+  [↓] Downloading: Tachiyomi: Weeb Central (v1.4.20)
   [=] Skipped: Tachiyomi: Manga-Park (v1.4.1) - already up to date
   [=] Skipped: AnnasArchive (v1.6) - already up to date
   [=] Skipped: Libgen (v1.4) - already up to date
+  [−] Removing old version: eu.kanade.tachiyomi.extension.en.weebcentral.v1.4.19.apk
+  [−] Removing old version: eu.kanade.tachiyomi.extension.en.allanime.v1.4.15.apk
+  [−] Removing old version: eu.kanade.tachiyomi.extension.all.mangadex.v1.4.207.apk
+  [−] Removing old version: eu.kanade.tachiyomi.animeextension.en.animepahe.v14.38.apk
 
 ✓ Success! Total extensions: 13
-  - New/Updated: 0
-  - Unchanged: 13
+  - New/Updated: 4
+  - Unchanged: 9
