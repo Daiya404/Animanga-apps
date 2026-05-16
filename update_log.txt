@@ -20,13 +20,13 @@
   [+] New: Libgen (v1.4)
 
 --- Processing 14 unique extensions ---
-  [↓] Downloading: Aniyomi: AllAnime (v14.51)
+  [=] Skipped: Aniyomi: AllAnime (v14.51) - already up to date
   [=] Skipped: Aniyomi: AnimeKai (v14.17) - already up to date
-  [↓] Downloading: Aniyomi: AnimePahe (v14.40)
+  [=] Skipped: Aniyomi: AnimePahe (v14.40) - already up to date
   [=] Skipped: Aniyomi: HiAnimeWs (Unoriginal) (v14.3) - already up to date
   [=] Skipped: Aniyomi: HiAnime (Dead) (v14.72) - already up to date
   [=] Skipped: Tachiyomi: MangaDex (v1.4.209) - already up to date
-  [↓] Downloading: Tachiyomi: MangaFire (v1.4.22)
+  [=] Skipped: Tachiyomi: MangaFire (v1.4.22) - already up to date
   [=] Skipped: Tachiyomi: MayoTune (v1.4.2) - already up to date
   [=] Skipped: Tachiyomi: AllManga (v1.4.18) - already up to date
   [=] Skipped: Tachiyomi: Bbato (v1.4.1) - already up to date
@@ -34,10 +34,7 @@
   [=] Skipped: Tachiyomi: Manga-Park (v1.4.1) - already up to date
   [=] Skipped: AnnasArchive (v1.6) - already up to date
   [=] Skipped: Libgen (v1.4) - already up to date
-  [−] Removing old version: eu.kanade.tachiyomi.extension.all.mangafire.v1.4.21.apk
-  [−] Removing old version: eu.kanade.tachiyomi.animeextension.en.animepahe.v14.39.apk
-  [−] Removing old version: eu.kanade.tachiyomi.animeextension.en.allanime.v14.50.apk
 
 ✓ Success! Total extensions: 14
-  - New/Updated: 3
-  - Unchanged: 11
+  - New/Updated: 0
+  - Unchanged: 14
