@@ -20,7 +20,7 @@
   [+] New: Libgen (v1.4)
 
 --- Processing 14 unique extensions ---
-  [↓] Downloading: Aniyomi: AllAnime (v14.52)
+  [=] Skipped: Aniyomi: AllAnime (v14.52) - already up to date
   [=] Skipped: Aniyomi: AnimeKai (v14.17) - already up to date
   [=] Skipped: Aniyomi: AnimePahe (v14.40) - already up to date
   [=] Skipped: Aniyomi: HiAnimeWs (Unoriginal) (v14.3) - already up to date
@@ -34,8 +34,7 @@
   [=] Skipped: Tachiyomi: Manga-Park (v1.4.1) - already up to date
   [=] Skipped: AnnasArchive (v1.6) - already up to date
   [=] Skipped: Libgen (v1.4) - already up to date
-  [−] Removing old version: eu.kanade.tachiyomi.animeextension.en.allanime.v14.51.apk
 
 ✓ Success! Total extensions: 14
-  - New/Updated: 1
-  - Unchanged: 13
+  - New/Updated: 0
+  - Unchanged: 14
