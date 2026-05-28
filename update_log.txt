@@ -20,11 +20,11 @@
   [+] New: Libgen (v1.4)
 
 --- Processing 14 unique extensions ---
-  [↓] Downloading: Aniyomi: AllAnime (v14.53)
-  [↓] Downloading: Aniyomi: AnimeKai (v14.18)
-  [↓] Downloading: Aniyomi: AnimePahe (v14.41)
-  [↓] Downloading: Aniyomi: HiAnimeWs (Unoriginal) (v14.4)
-  [↓] Downloading: Aniyomi: HiAnime (Dead) (v14.73)
+  [=] Skipped: Aniyomi: AllAnime (v14.53) - already up to date
+  [=] Skipped: Aniyomi: AnimeKai (v14.18) - already up to date
+  [=] Skipped: Aniyomi: AnimePahe (v14.41) - already up to date
+  [=] Skipped: Aniyomi: HiAnimeWs (Unoriginal) (v14.4) - already up to date
+  [=] Skipped: Aniyomi: HiAnime (Dead) (v14.73) - already up to date
   [=] Skipped: Tachiyomi: MangaDex (v1.4.209) - already up to date
   [=] Skipped: Tachiyomi: MangaFire (v1.4.23) - already up to date
   [=] Skipped: Tachiyomi: MayoTune (v1.4.2) - already up to date
@@ -34,12 +34,7 @@
   [=] Skipped: Tachiyomi: Manga-Park (v1.4.1) - already up to date
   [=] Skipped: AnnasArchive (v1.6) - already up to date
   [=] Skipped: Libgen (v1.4) - already up to date
-  [−] Removing old version: eu.kanade.tachiyomi.animeextension.en.allanime.v14.52.apk
-  [−] Removing old version: eu.kanade.tachiyomi.animeextension.en.animekai.v14.17.apk
-  [−] Removing old version: eu.kanade.tachiyomi.animeextension.en.animepahe.v14.40.apk
-  [−] Removing old version: eu.kanade.tachiyomi.animeextension.en.zoro.v14.72.apk
-  [−] Removing old version: eu.kanade.tachiyomi.animeextension.en.hianimews.v14.3.apk
 
 ✓ Success! Total extensions: 14
-  - New/Updated: 5
-  - Unchanged: 9
+  - New/Updated: 0
+  - Unchanged: 14
