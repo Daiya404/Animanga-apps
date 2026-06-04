@@ -1,8 +1,8 @@
 
 --- Scanning Anime ---
-  [+] New: Aniyomi: AllAnime (v14.53)
+  [+] New: Aniyomi: AllAnime (v14.55)
   [+] New: Aniyomi: AnimeKai (v14.18)
-  [+] New: Aniyomi: AnimePahe (v14.42)
+  [+] New: Aniyomi: AnimePahe (v14.43)
   [+] New: Aniyomi: HiAnimeWs (Unoriginal) (v14.4)
   [+] New: Aniyomi: HiAnime (Dead) (v14.74)
   [+] New: Aniyomi: SushiAnimes (v14.1)
@@ -21,12 +21,12 @@
   [+] New: Libgen (v1.4)
 
 --- Processing 15 unique extensions ---
-  [=] Skipped: Aniyomi: AllAnime (v14.53) - already up to date
+  [↓] Downloading: Aniyomi: AllAnime (v14.55)
   [=] Skipped: Aniyomi: AnimeKai (v14.18) - already up to date
-  [=] Skipped: Aniyomi: AnimePahe (v14.42) - already up to date
+  [↓] Downloading: Aniyomi: AnimePahe (v14.43)
   [=] Skipped: Aniyomi: HiAnimeWs (Unoriginal) (v14.4) - already up to date
   [=] Skipped: Aniyomi: HiAnime (Dead) (v14.74) - already up to date
-  [↓] Downloading: Aniyomi: SushiAnimes (v14.1)
+  [=] Skipped: Aniyomi: SushiAnimes (v14.1) - already up to date
   [=] Skipped: Tachiyomi: MangaDex (v1.4.209) - already up to date
   [=] Skipped: Tachiyomi: MangaFire (v1.4.23) - already up to date
   [=] Skipped: Tachiyomi: MayoTune (v1.4.2) - already up to date
@@ -36,7 +36,9 @@
   [=] Skipped: Tachiyomi: Manga-Park (v1.4.1) - already up to date
   [=] Skipped: AnnasArchive (v1.6) - already up to date
   [=] Skipped: Libgen (v1.4) - already up to date
+  [−] Removing old version: eu.kanade.tachiyomi.animeextension.en.allanime.v14.53.apk
+  [−] Removing old version: eu.kanade.tachiyomi.animeextension.en.animepahe.v14.42.apk
 
 ✓ Success! Total extensions: 15
-  - New/Updated: 1
-  - Unchanged: 14
+  - New/Updated: 2
+  - Unchanged: 13
