@@ -23,7 +23,7 @@
 --- Processing 15 unique extensions ---
   [=] Skipped: Aniyomi: AllAnime (v14.55) - already up to date
   [=] Skipped: Aniyomi: AnimeKai (v14.18) - already up to date
-  [↓] Downloading: Aniyomi: AnimePahe (v14.44)
+  [=] Skipped: Aniyomi: AnimePahe (v14.44) - already up to date
   [=] Skipped: Aniyomi: HiAnimeWs (Unoriginal) (v14.4) - already up to date
   [=] Skipped: Aniyomi: HiAnime (Dead) (v14.74) - already up to date
   [=] Skipped: Aniyomi: SushiAnimes (v14.1) - already up to date
@@ -36,8 +36,7 @@
   [=] Skipped: Tachiyomi: Manga-Park (v1.4.1) - already up to date
   [=] Skipped: AnnasArchive (v1.6) - already up to date
   [=] Skipped: Libgen (v1.4) - already up to date
-  [−] Removing old version: eu.kanade.tachiyomi.animeextension.en.animepahe.v14.43.apk
 
 ✓ Success! Total extensions: 15
-  - New/Updated: 1
-  - Unchanged: 14
+  - New/Updated: 0
+  - Unchanged: 15
