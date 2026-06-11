@@ -27,20 +27,16 @@
   [=] Skipped: Aniyomi: HiAnimeWs (Unoriginal) (v14.4) - already up to date
   [=] Skipped: Aniyomi: HiAnime (Dead) (v14.74) - already up to date
   [=] Skipped: Aniyomi: SushiAnimes (v14.1) - already up to date
-  [↓] Downloading: Tachiyomi: MangaDex (v1.4.210)
-  [↓] Downloading: Tachiyomi: MangaFire (v1.4.24)
+  [=] Skipped: Tachiyomi: MangaDex (v1.4.210) - already up to date
+  [=] Skipped: Tachiyomi: MangaFire (v1.4.24) - already up to date
   [=] Skipped: Tachiyomi: MayoTune (v1.4.2) - already up to date
-  [↓] Downloading: Tachiyomi: AllManga (v1.4.19)
+  [=] Skipped: Tachiyomi: AllManga (v1.4.19) - already up to date
   [=] Skipped: Tachiyomi: Bbato (v1.4.1) - already up to date
-  [↓] Downloading: Tachiyomi: Weeb Central (v1.4.22)
+  [=] Skipped: Tachiyomi: Weeb Central (v1.4.22) - already up to date
   [=] Skipped: Tachiyomi: Manga-Park (v1.4.1) - already up to date
   [=] Skipped: AnnasArchive (v1.6) - already up to date
   [=] Skipped: Libgen (v1.4) - already up to date
-  [−] Removing old version: eu.kanade.tachiyomi.extension.en.weebcentral.v1.4.21.apk
-  [−] Removing old version: eu.kanade.tachiyomi.extension.en.allanime.v1.4.18.apk
-  [−] Removing old version: eu.kanade.tachiyomi.extension.all.mangafire.v1.4.23.apk
-  [−] Removing old version: eu.kanade.tachiyomi.extension.all.mangadex.v1.4.209.apk
 
 ✓ Success! Total extensions: 15
-  - New/Updated: 4
-  - Unchanged: 11
+  - New/Updated: 0
+  - Unchanged: 15
