@@ -32,7 +32,6 @@
   [=] Skipped: Tachiyomi: Manga-Park (v1.4.1) - already up to date
   [=] Skipped: AnnasArchive (v1.6) - already up to date
   [=] Skipped: Libgen (v1.4) - already up to date
-  [−] Removing old version: eu.kanade.tachiyomi.animeextension.en.zoro.v14.74.apk
 
 ✓ Success! Total extensions: 13
   - New/Updated: 0
