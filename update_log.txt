@@ -23,8 +23,8 @@
   [=] Skipped: Aniyomi: AnimePahe (v14.45) - already up to date
   [=] Skipped: Aniyomi: AnimeKai (Unoriginal) (v14.1) - already up to date
   [=] Skipped: Aniyomi: SushiAnimes (v14.1) - already up to date
-  [↓] Downloading: Tachiyomi: MangaDex (v1.4.211)
-  [↓] Downloading: Tachiyomi: MangaFire (v1.4.25)
+  [=] Skipped: Tachiyomi: MangaDex (v1.4.211) - already up to date
+  [=] Skipped: Tachiyomi: MangaFire (v1.4.25) - already up to date
   [=] Skipped: Tachiyomi: MayoTune (v1.4.2) - already up to date
   [=] Skipped: Tachiyomi: AllManga (v1.4.19) - already up to date
   [=] Skipped: Tachiyomi: Bbato (v1.4.1) - already up to date
@@ -32,9 +32,7 @@
   [=] Skipped: Tachiyomi: Manga-Park (v1.4.1) - already up to date
   [=] Skipped: AnnasArchive (v1.6) - already up to date
   [=] Skipped: Libgen (v1.4) - already up to date
-  [−] Removing old version: eu.kanade.tachiyomi.extension.all.mangadex.v1.4.210.apk
-  [−] Removing old version: eu.kanade.tachiyomi.extension.all.mangafire.v1.4.24.apk
 
 ✓ Success! Total extensions: 13
-  - New/Updated: 2
-  - Unchanged: 11
+  - New/Updated: 0
+  - Unchanged: 13
