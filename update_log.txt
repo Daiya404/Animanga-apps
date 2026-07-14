@@ -1,6 +1,6 @@
 
 --- Scanning Anime ---
-  [+] New: Aniyomi: AllAnime (v14.55)
+  [+] New: Aniyomi: AllAnime (v14.56)
   [+] New: Aniyomi: AnimePahe (v14.45)
   [+] New: Aniyomi: AnimeKai (Unoriginal) (v14.1)
   [+] New: Aniyomi: SushiAnimes (v14.2)
@@ -9,7 +9,7 @@
   [+] New: Tachiyomi: MangaDex (v1.4.211)
   [+] New: Tachiyomi: MangaFire (v1.4.26)
   [+] New: Tachiyomi: MayoTune (v1.4.2)
-  [+] New: Tachiyomi: AllManga (v1.4.21)
+  [+] New: Tachiyomi: AllManga (v1.4.22)
   [+] New: Tachiyomi: Bbato (v1.4.1)
   [+] New: Tachiyomi: Weeb Central (v1.4.22)
   [+] New: Tachiyomi: Manga-Park (v1.4.1)
@@ -19,21 +19,22 @@
   [+] New: Libgen (v1.4)
 
 --- Processing 13 unique extensions ---
-  [=] Skipped: Aniyomi: AllAnime (v14.55) - already up to date
+  [↓] Downloading: Aniyomi: AllAnime (v14.56)
   [=] Skipped: Aniyomi: AnimePahe (v14.45) - already up to date
   [=] Skipped: Aniyomi: AnimeKai (Unoriginal) (v14.1) - already up to date
   [=] Skipped: Aniyomi: SushiAnimes (v14.2) - already up to date
   [=] Skipped: Tachiyomi: MangaDex (v1.4.211) - already up to date
   [=] Skipped: Tachiyomi: MangaFire (v1.4.26) - already up to date
   [=] Skipped: Tachiyomi: MayoTune (v1.4.2) - already up to date
-  [↓] Downloading: Tachiyomi: AllManga (v1.4.21)
+  [↓] Downloading: Tachiyomi: AllManga (v1.4.22)
   [=] Skipped: Tachiyomi: Bbato (v1.4.1) - already up to date
   [=] Skipped: Tachiyomi: Weeb Central (v1.4.22) - already up to date
   [=] Skipped: Tachiyomi: Manga-Park (v1.4.1) - already up to date
   [=] Skipped: AnnasArchive (v1.6) - already up to date
   [=] Skipped: Libgen (v1.4) - already up to date
-  [−] Removing old version: eu.kanade.tachiyomi.extension.en.allanime.v1.4.20.apk
+  [−] Removing old version: eu.kanade.tachiyomi.extension.en.allanime.v1.4.21.apk
+  [−] Removing old version: eu.kanade.tachiyomi.animeextension.en.allanime.v14.55.apk
 
 ✓ Success! Total extensions: 13
-  - New/Updated: 1
-  - Unchanged: 12
+  - New/Updated: 2
+  - Unchanged: 11
