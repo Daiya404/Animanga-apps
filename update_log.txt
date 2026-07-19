@@ -26,14 +26,13 @@
   [=] Skipped: Tachiyomi: MangaDex (v1.4.211) - already up to date
   [=] Skipped: Tachiyomi: MangaFire (v1.4.26) - already up to date
   [=] Skipped: Tachiyomi: MayoTune (v1.4.2) - already up to date
-  [↓] Downloading: Tachiyomi: AllManga (v1.6.23)
+  [=] Skipped: Tachiyomi: AllManga (v1.6.23) - already up to date
   [=] Skipped: Tachiyomi: Bbato (v1.4.1) - already up to date
   [=] Skipped: Tachiyomi: Weeb Central (v1.4.22) - already up to date
   [=] Skipped: Tachiyomi: Manga-Park (v1.4.1) - already up to date
   [=] Skipped: AnnasArchive (v1.6) - already up to date
   [=] Skipped: Libgen (v1.4) - already up to date
-  [−] Removing old version: eu.kanade.tachiyomi.extension.en.allanime.v1.4.22.apk
 
 ✓ Success! Total extensions: 13
-  - New/Updated: 1
-  - Unchanged: 12
+  - New/Updated: 0
+  - Unchanged: 13
