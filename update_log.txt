@@ -11,7 +11,7 @@
   [+] New: Tachiyomi: MayoTune (v1.4.2)
   [+] New: Tachiyomi: AllManga (v1.6.23)
   [+] New: Tachiyomi: Bbato (v1.4.1)
-  [+] New: Tachiyomi: Weeb Central (v1.4.22)
+  [+] New: Tachiyomi: Weeb Central (v1.6.23)
   [+] New: Tachiyomi: Manga-Park (v1.4.1)
 
 --- Scanning Novel ---
@@ -28,11 +28,12 @@
   [=] Skipped: Tachiyomi: MayoTune (v1.4.2) - already up to date
   [=] Skipped: Tachiyomi: AllManga (v1.6.23) - already up to date
   [=] Skipped: Tachiyomi: Bbato (v1.4.1) - already up to date
-  [=] Skipped: Tachiyomi: Weeb Central (v1.4.22) - already up to date
+  [↓] Downloading: Tachiyomi: Weeb Central (v1.6.23)
   [=] Skipped: Tachiyomi: Manga-Park (v1.4.1) - already up to date
   [=] Skipped: AnnasArchive (v1.6) - already up to date
   [=] Skipped: Libgen (v1.4) - already up to date
+  [−] Removing old version: eu.kanade.tachiyomi.extension.en.weebcentral.v1.4.22.apk
 
 ✓ Success! Total extensions: 13
-  - New/Updated: 0
-  - Unchanged: 13
+  - New/Updated: 1
+  - Unchanged: 12
