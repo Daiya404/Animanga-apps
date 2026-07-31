@@ -16,14 +16,6 @@
   [=] Skipped: Aniyomi: SushiAnimes (v14.2) - already up to date
   [=] Skipped: AnnasArchive (v1.6) - already up to date
   [=] Skipped: Libgen (v1.4) - already up to date
-  [−] Removing old version: eu.kanade.tachiyomi.extension.ja.mangaparkpublisher.v1.4.1.apk
-  [−] Removing old version: eu.kanade.tachiyomi.extension.en.weebcentral.v1.6.24.apk
-  [−] Removing old version: eu.kanade.tachiyomi.extension.en.bbato.v1.4.1.apk
-  [−] Removing old version: eu.kanade.tachiyomi.extension.all.mangadex.v1.4.211.apk
-  [−] Removing old version: eu.kanade.tachiyomi.extension.all.mayotune.v1.4.2.apk
-  [−] Removing old version: eu.kanade.tachiyomi.extension.all.mangafire.v1.6.27.apk
-  [−] Removing old version: eu.kanade.tachiyomi.extension.en.allanime.v1.6.25.apk
-  [−] Removing old version: eu.kanade.tachiyomi.animeextension.en.allanime.v14.57.apk
 
 ✓ Success! Total extensions: 5
   - New/Updated: 0
