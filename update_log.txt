@@ -1,6 +1,6 @@
 
 --- Scanning Anime ---
-  [+] New: Aniyomi: AnimePahe (v14.46)
+  [+] New: Aniyomi: AnimePahe (v14.47)
   [+] New: Aniyomi: AnimeKai (Unoriginal) (v14.1)
   [+] New: Aniyomi: SushiAnimes (v14.2)
 
@@ -11,12 +11,13 @@
   [+] New: Libgen (v1.4)
 
 --- Processing 5 unique extensions ---
-  [=] Skipped: Aniyomi: AnimePahe (v14.46) - already up to date
+  [↓] Downloading: Aniyomi: AnimePahe (v14.47)
   [=] Skipped: Aniyomi: AnimeKai (Unoriginal) (v14.1) - already up to date
   [=] Skipped: Aniyomi: SushiAnimes (v14.2) - already up to date
   [=] Skipped: AnnasArchive (v1.6) - already up to date
   [=] Skipped: Libgen (v1.4) - already up to date
+  [−] Removing old version: eu.kanade.tachiyomi.animeextension.en.animepahe.v14.46.apk
 
 ✓ Success! Total extensions: 5
-  - New/Updated: 0
-  - Unchanged: 5
+  - New/Updated: 1
+  - Unchanged: 4
