@@ -1,7 +1,7 @@
 
 --- Scanning Anime ---
   [+] New: Aniyomi: AnimePahe (v14.49)
-  [+] New: Aniyomi: AnimeKai (Unoriginal) (v14.2)
+  [+] New: Aniyomi: AnimeKai (Unoriginal) (v14.4)
   [+] New: Aniyomi: SushiAnimes (v14.2)
 
 --- Scanning Manga ---
@@ -12,11 +12,12 @@
 
 --- Processing 5 unique extensions ---
   [=] Skipped: Aniyomi: AnimePahe (v14.49) - already up to date
-  [=] Skipped: Aniyomi: AnimeKai (Unoriginal) (v14.2) - already up to date
+  [↓] Downloading: Aniyomi: AnimeKai (Unoriginal) (v14.4)
   [=] Skipped: Aniyomi: SushiAnimes (v14.2) - already up to date
   [=] Skipped: AnnasArchive (v1.6) - already up to date
   [=] Skipped: Libgen (v1.4) - already up to date
+  [−] Removing old version: eu.kanade.tachiyomi.animeextension.en.kotokai.v14.2.apk
 
 ✓ Success! Total extensions: 5
-  - New/Updated: 0
-  - Unchanged: 5
+  - New/Updated: 1
+  - Unchanged: 4
