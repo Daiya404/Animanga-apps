@@ -11,15 +11,12 @@
   [+] New: Libgen (v1.4)
 
 --- Processing 5 unique extensions ---
-  [↓] Downloading: Aniyomi: AnimePahe (v16.57)
-  [↓] Downloading: Aniyomi: AnimeKai (Unoriginal) (v16.11)
-  [↓] Downloading: Aniyomi: SushiAnimes (v14.3)
+  [=] Skipped: Aniyomi: AnimePahe (v16.57) - already up to date
+  [=] Skipped: Aniyomi: AnimeKai (Unoriginal) (v16.11) - already up to date
+  [=] Skipped: Aniyomi: SushiAnimes (v14.3) - already up to date
   [=] Skipped: AnnasArchive (v1.6) - already up to date
   [=] Skipped: Libgen (v1.4) - already up to date
-  [−] Removing old version: eu.kanade.tachiyomi.animeextension.en.kotokai.v16.10.apk
-  [−] Removing old version: eu.kanade.tachiyomi.animeextension.pt.sushianimes.v14.2.apk
-  [−] Removing old version: eu.kanade.tachiyomi.animeextension.en.animepahe.v16.56.apk
 
 ✓ Success! Total extensions: 5
-  - New/Updated: 3
-  - Unchanged: 2
+  - New/Updated: 0
+  - Unchanged: 5
